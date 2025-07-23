@@ -1,0 +1,72 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .back-home {
+      background-color: #0d1f03;
+      padding: 10px 20px;
+      text-align: left;
+    }
+    .back-home a {
+      color: #FFA800;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    header {
+      background: url('./pics/culture1.jpeg') center/cover no-repeat;
+      height: 90vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .intro {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .timeline {
+      display: grid;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .event {
+      background: white;
+      padding: 1.5rem;
+      border-left: 5px solid #FFA800;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .event h3 {
+      margin-top: 0;
+      color: #0d1f03;
+    }
+    .culture {
+      text-align: center;
+      padding: 2rem;
+      background: #fff;
+    }
+    .culture img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #0d1f03;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }

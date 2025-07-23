@@ -1,0 +1,130 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    .hero {
+      background: url('./pics/food1.jpeg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      z-index: 2;
+      background: rgba(0,0,0,0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+
+    .intro {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .food-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .food-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .food-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .food-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .food-card h3 {
+      margin: 0;
+      padding: 1rem;
+      background-color: #FFA800;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    .food-card p {
+      padding: 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .adventure {
+      background-color: #0d1f03;
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .adventure h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .adventure p {
+      font-size: 1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    footer {
+      background-color: #FFA800;
+      color: rgb(4, 66, 17);
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .back {
+      display: inline-block;
+      background-color: #FFA800;
+      color: #000;
+      padding: 0.5rem 1.8rem;
+      border-radius: 25px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .back:hover {
+      background-color: #022404;
+      color: #fff;
+    }
+
+    .back-container {
+      text-align: right;
+      padding: 20px 40px 0 0;
+    }
